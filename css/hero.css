@@ -17,6 +17,7 @@ header h1{
 	color: white;
 	font-size: 100px;
 	font-family: "Faster One", cursive;
+	text-shadow: 0 4px 20px #000099;
 }
 
 
@@ -24,13 +25,37 @@ header img{
 	border-radius: 360px;
 	width: 300px;
 	border: 41px solid  /*#0000e6*/ #e60000;
+	box-shadow: 0 10px 20px #000099;
 }
 
 .content{
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 10px 20px;
 	background-color: aliceblue;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	color: #003666;
+	font-family: 'Roboto', sans-serif;
+}
+
+ol{
+	list-style: none;
+}
+
+#first-fast{
+      color:#b3e0ff;
+}
+
+#second-fast{
+	color: #4db8ff;
+}
+
+#third-fast{
+	color:  #008ae6;
 }
 
 img.big-image{
@@ -39,7 +64,7 @@ img.big-image{
 
 p.caption{
 	font-size: 16px;
-	color: lightgray;
+	color: #737373;
 	font-style: italic;
 }
 
