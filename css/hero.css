@@ -1,0 +1,67 @@
+html, body{
+	font-family: sans-serif;
+	margin: 0;
+}
+
+/***** HEADER****/
+header{
+/***background: url(../img/c_stripes.png);
+background-repeat: no-repeat;
+background-color: #0000ff;***/
+ background-image: linear-gradient(#b3e0ff, #4db8ff);
+	padding: 40px;
+	text-align: center;
+	}
+
+header h1{
+	color: white;
+	font-size: 100px;
+	font-family: "Faster One", cursive;
+}
+
+
+header img{
+	border-radius: 360px;
+	width: 300px;
+	border: 41px solid  /*#0000e6*/ #e60000;
+}
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: aliceblue;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgray;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #e60000;
+	text-decoration: none;
+}
+
+footer{
+	text-align: center;
+	color:  #808080;
+	padding: 40px, 20px;
+	background-color: #e6e6e6;
+	margin-top: 20px;
+}
+
+ul{
+	text-align: center;
+}
